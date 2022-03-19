@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,300;1,500&family=Roboto+Mono:ital,wght@0,100;1,100&display=swap');
+
+body {
+  background: linear-gradient(236.85deg, #7A0038 27%,#FF3D9B 96.03%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  background: #FFE4F1;
+  color: #2E0016;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow:6px 6px 6px #5F002E;
+  padding: 64px;
+;
+  
+}
+.perfil{
+ display:flex;
+  align-items: center;
+}
+
+.foto-perfil{
+  border-radius: 460px;
+  width: 200px;
+  box-shadow: 0 4px 4px rgba(0,0,0.25);
+}
+
+.titulo{
+  margin-left: 16px;
+}
+
+.titulo h1{
+  font-weight:700;
+  font-size:36px;
+}
+
+.titulo h3{
+  font-weight:400;
+  font-size:24px;
+}
+
+.projetos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
